@@ -29593,7 +29593,7 @@ __webpack_require__(143);
 			messages: [],
 			message: '',
 			connnection: true,
-			url: 'http://echo.brisl.ru/',
+			url: 'https://echo-chat-service.herokuapp.com/',
 			key: window.localStorage.getItem('keyData') ? window.localStorage.getItem('keyData') : 'enter'
 		};
 	},
