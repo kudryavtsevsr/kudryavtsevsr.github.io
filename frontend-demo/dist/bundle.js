@@ -31613,7 +31613,7 @@ var qs = __webpack_require__(60);
 
 				this.notifications.push(payload.notification);
 
-				navigator.serviceWorker.register('../messaging-sw.js');
+				navigator.serviceWorker.register('/messaging-sw.js');
 				Notification.requestPermission(function (permission) {
 					if (permission === 'granted') {
 						navigator.serviceWorker.ready.then(function (registration) {
